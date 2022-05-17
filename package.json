@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.11",
+    "@factorial/eleventy-plugin-fstack": "file:./eleventy-plugin-fstack",
+    "@factorial/eleventy-plugin-twig": "file:./eleventy-plugin-twig",
+    "@factorial/stack-core": "^0.4.2",
+    "@factorial/stack-css": "^0.6.4",
+    "@factorial/stack-javascript": "^0.6.7",
+    "twig": "^1.15.4"
+  },
+  "scripts": {
+    "dev": "eleventy --incremental --serve",
+    "build": "eleventy"
+  }
+}

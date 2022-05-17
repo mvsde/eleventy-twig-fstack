@@ -1,0 +1,4 @@
+dist
+eleventy-plugin-fstack
+eleventy-plugin-twig
+node_modules
